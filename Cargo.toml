@@ -1,0 +1,16 @@
+[package]
+name = "gooseboy-tracing"
+version = "0.1.0"
+edition = "2024"
+authors = ["awildergoose"]
+description = "Compatibility layer for tracing for Gooseboy"
+license-file = "LICENSE"
+readme = "README.md"
+repository = "https://github.com/awildergoose/gooseboy-tracing.git"
+keywords = ["minecraft", "wasm"]
+categories = ["os", "wasm", "tracing"]
+
+[dependencies]
+gooseboy = { version = "0.3.2", default-features = false }
+tracing = "0.1.44"
+tracing-subscriber = "0.3.23"
