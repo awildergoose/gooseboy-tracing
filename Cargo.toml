@@ -7,8 +7,8 @@ description = "Compatibility layer for tracing for Gooseboy"
 license-file = "LICENSE"
 readme = "README.md"
 repository = "https://github.com/awildergoose/gooseboy-tracing.git"
-keywords = ["minecraft", "wasm"]
-categories = ["os", "wasm", "tracing"]
+keywords = ["minecraft", "wasm", "tracing"]
+categories = ["os", "wasm"]
 
 [dependencies]
 gooseboy = { version = "0.3.2", default-features = false }
